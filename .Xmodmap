@@ -1,0 +1,6 @@
+remove Lock = Caps_Lock
+keysym Caps_Lock = Escape
+keycode 135 = Super_R
+keycode 94 = Home
+keysym Insert = Delete
+keysym KP_End = End

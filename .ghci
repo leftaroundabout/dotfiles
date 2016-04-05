@@ -1,0 +1,20 @@
+-- :def hoogle \x -> return $ ":!hoogle \"" ++ x ++ "\""
+-- :def doc \x -> return $ ":!hoogle --info \"" ++ x ++ "\""
+:set -XTypeOperators
+:set -XTupleSections
+:set -XFlexibleContexts
+:set -XGADTs
+
+-- Pretty printing of it
+-- :set -package ghci-pretty
+-- import IPPrint.Colored
+-- :set -interactive-print=IPPrint.Colored.cpprint
+-- :def cp (\_ -> return ":set -interactive-print=IPPrint.Colored.cpprint")
+-- :def ncp (\_ -> return ":set -interactive-print=print")
+-- :def rcp (\_ -> return ":r\n:cp")
+
+:def simpleprompt (\_ -> return ":set prompt \"> \"")
+
+-- :def metrology (\_ -> return ":m +Data.Metrology Data.Metrology.SI")
+
+-- :set prompt "GHCi> "
