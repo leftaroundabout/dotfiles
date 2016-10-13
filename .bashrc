@@ -245,3 +245,11 @@ alias gist='git status'
 
 
 alias jnb='jupyter notebook --browser="echo"'
+
+
+ttytitle() {
+  echo -en "\033]0;$@\a"
+}
+
+# Remove "Untitled" terminal-tab name
+ttytitle "$TTYTITLE "
