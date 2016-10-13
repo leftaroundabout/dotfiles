@@ -86,10 +86,12 @@ alias ll='/bin/ls -alF'
 alias la='/bin/ls -A'
 alias l='/bin/ls -CF'
 
+GRAY='\033[1;30m'
+
 newlineafterprompt()
 {
 # Show a clock at beginning of prompt
-    PROMPT_COMMAND="echo -n \[\$(date +%H:%M:%S)\]\ "
+    PROMPT_COMMAND="echo -e '$GRAY'; echo -n \[\$(date +%H:%M:%S)\]\ "
     PS1='${debian_chroot:+($debian_chroot)}\[\033[02;31m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\n\$ '
 }
 
