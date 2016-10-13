@@ -195,8 +195,22 @@ alias cbwd="pwd | cb"
 alias cbhs="cat $HISTFILE | tail -n 1 | cb"  
 
 
+anywait(){
 
-alias visit="~/bin/visit2_9_0.linux-x86_64/bin/visit"
+    for pid in "$@"; do
+        while kill -0 "$pid"; do
+            sleep 0.5
+        done
+    done
+}
+waitall() {
+    pids=$(pidof "$@")
+    echo "Wait for $@ ($pids)..."
+    anywait $(pidof "$@")
+}
+
+
+export PATH=~/bin/visit2_9_0.linux-x86_64/bin:$PATH
 
 
 
