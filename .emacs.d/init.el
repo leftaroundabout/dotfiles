@@ -88,13 +88,25 @@
   (save-some-buffers 1)
   (compile compile-command))
 
+(defun interrupt-and-recompile ()
+  "Interrupt old compilation, if any, and recompile."
+  (interactive)
+  (ignore-errors (kill-compilation))
+  (sleep-for 1)
+  (recompile))
+
 (global-set-key (kbd "C-x a c") 'save-all-and-compile)
-(global-set-key (kbd "C-c m") 'recompile)
+(global-set-key (kbd "C-c m") 'interrupt-and-recompile)
 
 (setq compilation-ask-about-save nil)
 
 (setq compile-command "runhaskell Build.hs || cabal build")
+; (setq compile-command "stack build")
 
+(add-hook 'find-file-hook
+          (lambda ()
+            (when (string= major-mode "haskell-mode")
+              (recompile))))
 
 (custom-set-variables
   ;; custom-set-variables was added by Custom.
