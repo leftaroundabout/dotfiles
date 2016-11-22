@@ -630,6 +630,8 @@ imap \\(_ ⊆
 imap \\)_ ⊇
 imap \\0. ⊙
 imap \\02 ⊚
+imap \\0+ ⊕
+imap \\0X ⊗
 imap \\\-T ⊥
 imap \\.P ⋅
 imap \\:3 ⋮
