@@ -212,6 +212,10 @@ waitall() {
     echo "Wait for $@ ($pids)..."
     anywait $(pidof "$@")
 }
+fresh() {
+    waitall "$1"
+    $@
+}
 
 
 export PATH=~/bin/visit2_9_0.linux-x86_64/bin:$PATH
