@@ -131,10 +131,6 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
 fi
 
 
-# add path-local binaries to command path
-export PATH=~/bin:${PATH}
-export PATH=./bin:${PATH}
-
 
 # add texlive binaries to command path
 export PATH=/usr/local/texlive/2014/bin/x86_64-linux:${PATH}
@@ -147,10 +143,6 @@ export INFOPATH=/usr/local/texlive/2011/doc/info:${INFOPATH}
 export PATH=~/.cabal/bin:${PATH}
 
 export EDITOR=/usr/bin/vim
-
-# add mercury to command path
-export PATH=/usr/local/mercury/mercury-compiler-11.07.1/util:${PATH}
-export PATH=/usr/local/mercury/mercury-compiler-11.07.1/scripts:${PATH}
 
 # A shortcut function that simplifies usage of xclip.
 # - Accepts input from either stdin (pipe), or params.
@@ -261,3 +253,10 @@ ttytitle() {
 
 # Remove "Untitled" terminal-tab name
 ttytitle "$TTYTITLE "
+
+
+
+# add path-local binaries to command path
+export PATH=~/bin:${PATH}
+export PATH=./bin:${PATH}
+
