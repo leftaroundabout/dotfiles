@@ -243,6 +243,13 @@ alias beep='paplay "$BEEP" --volume=32768'
 
 alias gist='git status'
 
+# http://stackoverflow.com/a/43124892/745903
+function rmgit() {
+    # Recursively apply write permissions to files in the .git folder
+    chmod -R +w "${1}/.git"
+    # Remove the clone
+    rm -r "${1}"
+}
 
 alias jnb='jupyter notebook --browser="echo"'
 
