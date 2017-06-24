@@ -143,6 +143,8 @@
  
  (global-set-key (kbd "C-x p") 'paste-xclip)
 
+(require 'xclip)
+(xclip-mode 1)
 
 (defun isearch-other-window ()
   (interactive)
