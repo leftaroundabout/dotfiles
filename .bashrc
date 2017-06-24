@@ -247,6 +247,9 @@ PERL_MM_OPT="INSTALL_BASE=/home/sagemuej/perl5"; export PERL_MM_OPT;
 export BEEP=/usr/share/sounds/ubuntu/stereo/dialog-information.ogg
 alias beep='paplay "$BEEP" --volume=32768'
 
+# Simple way to set audio volume from the CLI
+alias pavol='pactl set-sink-volume @DEFAULT_SINK@'
+
 
 alias gist='git status'
 
