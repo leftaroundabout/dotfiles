@@ -105,13 +105,22 @@
 
 (setq compilation-ask-about-save nil)
 
-(setq compile-command "runhaskell Build.hs || cabal build")
 ; (setq compile-command "stack build")
+(defun run-this-file-or-cabal ()
+    "My typical compilation commands."
+    (interactive)
+    (setq compile-command
+       (concat "(cd "
+               (file-name-directory buffer-file-name)
+               "; ./"
+               (file-name-nondirectory buffer-file-name)
+               ") || runhaskell Build.hs || cabal build"))
+    (recompile))
 
 (add-hook 'find-file-hook
           (lambda ()
             (when (string= major-mode "haskell-mode")
-              (recompile))))
+              (run-this-file-or-cabal))))
 
 (custom-set-variables
   ;; custom-set-variables was added by Custom.
