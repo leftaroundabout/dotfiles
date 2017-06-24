@@ -28,7 +28,10 @@
   (set-selection-coding-system 'utf-8)
   (prefer-coding-system 'utf-8)
 
+(setq meta-prefix-char nil)
 (global-unset-key (kbd "ESC ESC ESC"))
+
+(global-set-key (kbd "C-c ESC n") 'evil-normal-state)
 
 ; (load-file (let ((coding-system-for-read 'utf-8))
 ;                 (shell-command-to-string "agda-mode locate")))
