@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=uklan disconnect
+Comment=
+Exec=sh -c 'sudo vpnc-disconnect ; sleep 2'
+Icon=
+Path=
+Terminal=true
+StartupNotify=false

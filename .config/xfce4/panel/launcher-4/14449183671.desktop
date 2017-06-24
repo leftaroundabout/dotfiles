@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=How much worked this month?
+Comment=Generate the MiLoG log for the current month, without starting a new work session.
+Exec=./MiLoG.py --no-log-entry
+Icon=office-calendar
+Path=/home/sagemuej/zinc/others/others/others/finance/2015/Mindlohn_geo_Erfassbogen
+Terminal=false
+StartupNotify=false

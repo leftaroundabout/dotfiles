@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Invert screen
+Comment=
+Exec=/home/sagemuej/bin/screeninvert
+Icon=preferences-desktop-display-symbolic
+Path=
+Terminal=false
+StartupNotify=false

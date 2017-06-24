@@ -1,0 +1,11 @@
+
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=ÄäËëÏïÖöÜüẞß
+Comment=charmapM_   — Umlauts
+Icon=accessories-character-map
+Exec=charmapM_ ÄäËëÏïÖöÜüẞß
+Path=
+Terminal=false
+StartupNotify=false

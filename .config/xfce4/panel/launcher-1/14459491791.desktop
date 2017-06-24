@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=GHCi-7.10
+Comment=Glasgow Haskell Compiler interactive
+Exec=xfce4-terminal -T GHCi-7.10 -e 'ghci-7.10 -fno-ghci-history +RTS -N3' -H
+Icon=/usr/share/icons/hicolor/scalable/apps/ThompsonWheeler_Haskell.svg
+Path=
+Terminal=false
+StartupNotify=false

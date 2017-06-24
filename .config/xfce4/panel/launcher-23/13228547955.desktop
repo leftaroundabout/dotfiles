@@ -1,0 +1,11 @@
+
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=ÁÀÅáàâÉÈȆéèȇÍÌÎíìîÓÒÔóòôÚÙÛúùû
+Comment=charmapM_   — Diacritics
+Icon=accessories-character-map
+Exec=charmapM_ ÁÀÅáàâÉÈȆéèȇÍÌÎíìîÓÒÔóòôÚÙÛúùû
+Path=
+Terminal=false
+StartupNotify=false

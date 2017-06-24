@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=kill iHaskell
+Comment=
+Exec=killall -9 ihaskell
+Icon=gnome-mines
+Path=
+Terminal=true
+StartupNotify=false

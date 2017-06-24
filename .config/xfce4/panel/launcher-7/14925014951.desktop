@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=DᴇᴄᴀTXT (Vanilla)
+Comment=
+Exec=/home/sagemuej/.cabal/bin/decatxt -w
+Icon=/home/sagemuej/misc/in10did-logo.png
+Path=
+Terminal=false
+StartupNotify=false

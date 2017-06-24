@@ -1,0 +1,11 @@
+
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=⁄½⅓⅔¼¾⅕⅖⅗⅘⅙⅛⅜⅝⅞
+Comment=charmapM_ — vulgar fractions
+Icon=accessories-character-map
+Exec=charmapM_ ⁄½⅓⅔¼¾⅕⅖⅗⅘⅙⅛⅜⅝⅞
+Path=
+Terminal=false
+StartupNotify=false

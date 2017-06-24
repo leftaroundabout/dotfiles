@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=vpnc: uklan-full
+Comment=
+Exec=sh -c 'sudo vpnc-connect uklan-full; sleep 2'
+Icon=/usr/share/icons/uni-koeln.png
+Path=
+Terminal=true
+StartupNotify=false

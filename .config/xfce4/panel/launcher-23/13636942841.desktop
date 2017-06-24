@@ -1,0 +1,11 @@
+
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Favourite characters
+Comment=charmapM_  — 48 most-used characters
+Icon=accessories-character-map
+Exec=charmapM_ -f 48
+Path=
+Terminal=false
+StartupNotify=false

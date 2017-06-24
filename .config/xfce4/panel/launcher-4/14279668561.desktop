@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=At work
+Comment=Logs the time I'm working for MiLoG
+Exec=./MiLoG.py
+Icon=clock
+Path=/home/sagemuej/zinc/others/others/others/finance/2015/Mindlohn_geo_Erfassbogen
+Terminal=true
+StartupNotify=false

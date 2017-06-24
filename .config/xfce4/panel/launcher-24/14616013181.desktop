@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Screencast
+Comment=Record a single window with Byzanz
+Exec=byzanz-record-window
+Icon=byzanz-record-window
+Path=
+Terminal=false
+StartupNotify=false

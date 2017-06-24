@@ -1,0 +1,11 @@
+
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=ℕℤℚℝℂℍℋ∀∃⊂⊃⊆⊇∊∩∪∧∨¬
+Comment=charmapM_   — Mathematical sets
+Icon=accessories-character-map
+Exec=charmapM_ ℕℤℚℝℂℍℋ∀∃⊂⊃⊆⊇∊∩∪∧∨¬
+Path=
+Terminal=false
+StartupNotify=false

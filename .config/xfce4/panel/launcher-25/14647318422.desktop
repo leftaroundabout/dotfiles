@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=10% brightness
+Comment=
+Exec=sh -c 'echo 90 | sudo tee /sys/class/backlight/intel_backlight/brightness'
+Icon=
+Path=
+Terminal=false
+StartupNotify=false

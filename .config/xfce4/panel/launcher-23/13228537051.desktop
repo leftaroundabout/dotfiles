@@ -1,0 +1,11 @@
+
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=charmapM_
+Comment=gtk+ character copy palette
+Icon=category-show-all
+Exec=charmapM_
+Path=
+Terminal=false
+StartupNotify=false
