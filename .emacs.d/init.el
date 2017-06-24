@@ -10,6 +10,8 @@
 (require 'evil)
 (evil-mode 1)
 
+(menu-bar-mode -1)
+
 ; (add-to-list 'load-path "~/.emacs.d/plugins/lyro-vim-mode-20044c893d53")
 ; (require 'vim)
 ; (vim-mode 1)
