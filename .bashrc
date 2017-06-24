@@ -86,6 +86,13 @@ alias ll='/bin/ls -alF'
 alias la='/bin/ls -A'
 alias l='/bin/ls -CF'
 
+function finds() {
+  name="*.$1"
+  shift
+  echo "$name"
+  find -name "$name" $*
+}
+
 GRAY='\033[1;30m'
 
 newlineafterprompt()
