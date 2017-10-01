@@ -277,3 +277,25 @@ ttytitle "$TTYTITLE "
 export PATH=~/bin:${PATH}
 export PATH=./bin:${PATH}
 
+# Make a transient temporary-directory repository with auto-committing
+# of work in progress.
+# https://github.com/leftaroundabout/temporary-checkout
+function mkccd() {
+    workdir=$(pwd)
+    localpersistance=$(sed "s|/\\([^/]*\\)/\\([^/]*\\)|/\\1/\\2/local|;s|\$|/${1}.git|" <<< ${workdir})
+    githubusername="leftaroundabout"
+    if [ -d ${localpersistance} ]
+    then echo "Using" ${localpersistance}
+    else git init --bare ${localpersistance}
+    fi
+    echo "
+{
+  \"basename\": \"${1}\",
+  \"pseudodir\": \"${workdir}\",
+  \"origin\": \"${localpersistance}\",
+  \"online-remotes\": {
+    \"github\": \"git@github.com:${githubusername}/${1}.git\"
+  }
+}" > ".${1}.repo-q.json"
+    ln -s "/tmp/ccd/${1}" ${1}
+}
