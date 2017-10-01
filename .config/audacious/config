@@ -1,10 +1,12 @@
 
 [audacious]
+default_gain=6
 enable_clipping_prevention=FALSE
 generic_title_format=${title}
+replay_gain_preamp=12
 software_volume_control=TRUE
-sw_volume_left=78
-sw_volume_right=78
+sw_volume_left=39
+sw_volume_right=39
 
 [audgui]
 filebrowser_win=345,126,672,480
@@ -38,12 +40,12 @@ entry5=http://freewavesamples.com/files/E-Mu-Proteus-FX-Wacky-Snare.wav
 [skins]
 equalizer_x=68
 equalizer_y=259
-player_x=82
-player_y=155
+player_x=38
+player_y=161
 playlist_height=261
 playlist_visible=TRUE
 playlist_width=500
-playlist_x=68
-playlist_y=271
+playlist_x=27
+playlist_y=277
 show_remaining_time=TRUE
 skin=/usr/local/share/audacious/Skins/Default
