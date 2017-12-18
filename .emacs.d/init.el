@@ -114,7 +114,7 @@
                (file-name-directory buffer-file-name)
                "; ./"
                (file-name-nondirectory buffer-file-name)
-               ") || runhaskell Build.hs || cabal build"))
+               ") || runghc-7.10 Build.hs || cabal test"))
     (recompile))
 
 (add-hook 'find-file-hook
