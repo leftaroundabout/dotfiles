@@ -299,3 +299,7 @@ function mkccd() {
 }" > ".${1}.repo-q.json"
     ln -s "/tmp/ccd/${1}" ${1}
 }
+
+function my-github-fork() {
+  git remote add leftaroundabout git@github.com:leftaroundabout/$(basename $(pwd))
+}
