@@ -89,8 +89,18 @@ alias l='/bin/ls -CF'
 function finds() {
   name="*.$1"
   shift
-  echo "$name"
-  find -name "$name" $*
+  find -name "$name" "$@"
+}
+
+function grepfinds() {
+  name="*.$1"
+  shift
+  files=$(find -name "$name")
+  grep "$@" $files
+}
+
+function sedcp() {
+  sed $1 $2 > $3
 }
 
 GRAY='\033[1;30m'
@@ -252,6 +262,7 @@ alias pavol='pactl set-sink-volume @DEFAULT_SINK@'
 
 
 alias gist='git status'
+alias git-annex-direct='git -c core.bare=false'
 
 # http://stackoverflow.com/a/43124892/745903
 function rmgit() {
@@ -261,7 +272,8 @@ function rmgit() {
     rm -r "${1}"
 }
 
-alias jnb='jupyter notebook --browser="echo"'
+alias jnb='jupyter notebook --browser="echo" --NotebookApp.token="" --NotebookApp.disable_check_xsrf=True'
+alias ighci='jupyter console --kernel=haskell'
 
 
 ttytitle() {
@@ -281,6 +293,13 @@ export PATH=./bin:${PATH}
 # of work in progress.
 # https://github.com/leftaroundabout/temporary-checkout
 function mkccd() {
+    if [[ "${@#--help}" = "$@" ]]
+    then
+        echo "Making temporary-checkout repository for $@"
+    else
+        echo "Help not available"
+        return
+    fi
     workdir=$(pwd)
     localpersistance=$(sed "s|/\\([^/]*\\)/\\([^/]*\\)|/\\1/\\2/local|;s|\$|/${1}.git|" <<< ${workdir})
     githubusername="leftaroundabout"
@@ -300,6 +319,30 @@ function mkccd() {
     ln -s "/tmp/ccd/${1}" ${1}
 }
 
+function reinstall_manifolds() {
+  fresh cabal install \
+    ~/progwrit/haskell/{manifolds/manifolds,manifolds/manifold-random,graphics/colour-space,dynamic-plot} \
+    --with-compiler ghc --disable-documentation
+  beep
+  cabal configure --enable-tests # --with-compiler ghc-7.10
+}
+
 function my-github-fork() {
   git remote add leftaroundabout git@github.com:leftaroundabout/$(basename $(pwd))
+}
+
+function git-toplevel() {
+  export GITRT=$(realpath --relative-to="${PWD}" $(git rev-parse --show-toplevel))
+  echo "$GITRT"
+}
+
+function movelinktarget() {
+  origtarget="$1"
+  newtarget="$2"
+  find -L . -samefile "${origtarget}" | fgrep -v "${origtarget}" | while read lnk
+  do
+    unlink "${lnk}"
+    ln -s $(realpath --relative-to="$(dirname ${lnk})" "${newtarget}") "${lnk}"
+  done
+  mv "${origtarget}" "${newtarget}"
 }
