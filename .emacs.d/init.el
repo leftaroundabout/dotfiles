@@ -123,16 +123,16 @@
               (run-this-file-or-cabal))))
 
 (custom-set-variables
-  ;; custom-set-variables was added by Custom.
-  ;; If you edit it by hand, you could mess it up, so be careful.
-  ;; Your init file should contain only one such instance.
-  ;; If there is more than one, they won't work right.
- '(haskell-mode-hook (quote (turn-on-haskell-indent))))
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(haskell-mode-hook (quote (turn-on-haskell-indent)) t))
 (custom-set-faces
-  ;; custom-set-faces was added by Custom.
-  ;; If you edit it by hand, you could mess it up, so be careful.
-  ;; Your init file should contain only one such instance.
-  ;; If there is more than one, they won't work right.
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
  )
 
 
@@ -315,16 +315,16 @@
  ("\\cN"       #X1D4DD)
  ("\\cO"       #X1D4DE)
  ("\\cP"       #X1D4DF)
- ("\\cQ"       #X1D450)
- ("\\cR"       #X1D451)
- ("\\cS"       #X1D452)
- ("\\cT"       #X1D453)
- ("\\cU"       #X1D454)
- ("\\cV"       #X1D455)
- ("\\cW"       #X1D456)
- ("\\cX"       #X1D457)
- ("\\cY"       #X1D458)
- ("\\cZ"       #X1D459)
+ ("\\cQ"       #X1D4E0)
+ ("\\cR"       #X1D4E1)
+ ("\\cS"       #X1D4E2)
+ ("\\cT"       #X1D4E3)
+ ("\\cU"       #X1D4E4)
+ ("\\cV"       #X1D4E5)
+ ("\\cW"       #X1D4E6)
+ ("\\cX"       #X1D4E7)
+ ("\\cY"       #X1D4E8)
+ ("\\cZ"       #X1D4E9)
  ("\\Fd"       #X1D589)
 
  ("\\bA"       #X1D400)
@@ -415,4 +415,11 @@
         (when (and (buffer-file-name) (file-exists-p (buffer-file-name)) (not (buffer-modified-p)))
           (revert-buffer t t t) )))
     (message "Refreshed open files.") )
- (global-set-key (kbd "C-x R") 'revert-all-buffers)
+(global-set-key (kbd "C-x R") 'revert-all-buffers)
+
+
+
+(global-visual-line-mode +1)
+
+(electric-indent-mode -1)
+(add-hook 'after-change-major-mode-hook (lambda() (electric-indent-mode -1)))
