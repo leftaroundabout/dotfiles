@@ -1,0 +1,22 @@
+[user]
+	name = Justus Sagemüller
+	email = jsag@hvl.no
+	signingkey = 03506BE4B236B1E8
+[core]
+	editor = vim
+	excludesfile = /home/sagemuej/.gitignore_global
+	pager = less
+	quotePath = false
+[credential]
+	helper = cache
+[diff]
+	tool = vimdiff
+	algorithm = histogram
+[push]
+	default = matching
+[gpg]
+	program = gpg2
+[commit]
+	gpgsign = false
+[annex]
+	autocommit = false
