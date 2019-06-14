@@ -18,3 +18,5 @@
 -- :def metrology (\_ -> return ":m +Data.Metrology Data.Metrology.SI")
 
 -- :set prompt "GHCi> "
+
+:def defdtype (\e -> return $ ":set -XMonomorphismRestriction\nlet defaulted = "++e++"\n:t defaulted")
