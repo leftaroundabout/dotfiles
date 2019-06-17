@@ -346,3 +346,7 @@ function movelinktarget() {
   done
   mv "${origtarget}" "${newtarget}"
 }
+
+function guionly() {
+  "$@" >/dev/null 2>/dev/null &
+}
