@@ -1,0 +1,3 @@
+[submodule "progwrit/python/ccd"]
+	path = progwrit/python/ccd
+	url = ./progwrit/python/ccd
