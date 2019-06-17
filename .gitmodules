@@ -1,3 +1,6 @@
 [submodule "progwrit/python/ccd"]
 	path = progwrit/python/ccd
 	url = ./progwrit/python/ccd
+[submodule ".config/autokey/data/My Phrases/Vim-digraphs"]
+	path = .config/autokey/data/My Phrases/Vim-digraphs
+	url = ./.config/autokey/data/My Phrases/Vim-digraphs
