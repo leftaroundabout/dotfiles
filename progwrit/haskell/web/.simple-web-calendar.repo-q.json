@@ -1,0 +1,6 @@
+{
+  "basename": "simple-web-calendar",
+  "pseudodir": "~/progwrit/haskell/web/",
+  "origin": "git@github.com:leftaroundabout/simple-web-calendar.git",
+  "online-remotes": {"jsapi2-loc": "jsapi2-loc:progwrit/haskell/simple-web-calendar"}
+}

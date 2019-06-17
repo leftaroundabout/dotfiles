@@ -1,0 +1,11 @@
+{
+  "basename": "manifolds",
+  "pseudodir": "~/progwrit/haskell/",
+  "origin": "/home/sagemuej/local/progwrit/haskell/manifolds.git",
+  "online-remotes": {
+      "github": "git@github.com:leftaroundabout/manifolds.git",
+      "cheops-stack": "cheops:/home/jsagemue/haskell-devel/manifolds",
+      "medionusb": "/media/sagemuej/5086-4618/progwrit/haskell/manifolds.git",
+      "sagemuchime": "sagemuchime:progwrit/haskell/manifolds.git"
+  }
+}

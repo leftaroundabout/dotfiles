@@ -1,0 +1,9 @@
+{
+  "basename": "Hausdorff",
+  "pseudodir": "~/progwrit/haskell/",
+  "origin": "/home/sagemuej/local/progwrit/haskell/Hausdorff.git",
+  "online-remotes": {
+      "pichime": "pi@dime-chime.com:~/progwrit/haskell/others/Hausdorff",
+      "pi-loc": "pi@192.168.0.3:~/progwrit/haskell/others/Hausdorff"
+  }
+}

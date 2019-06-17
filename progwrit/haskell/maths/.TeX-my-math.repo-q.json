@@ -1,0 +1,10 @@
+{
+  "basename": "TeX-my-math",
+  "pseudodir": "~/progwrit/haskell/maths",
+  "origin": "/home/sagemuej/local/progwrit/haskell/maths/TeX-my-math.git",
+  "online-remotes": {
+    "github": "git@github.com:leftaroundabout/Symbolic-math-HaTeX.git",
+    "jsapi": "jsa2pi-loc:/home/jsa/progwrit/haskell/maths/TeX-my-math.git",
+    "pichime": "sagemuchime:/home/jsa/progwrit/haskell/maths/TeX-my-math.git"
+  }
+}

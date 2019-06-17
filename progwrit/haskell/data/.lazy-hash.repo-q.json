@@ -1,0 +1,10 @@
+{
+  "basename": "lazy-hash",
+  "pseudodir": "~/progwrit/haskell/data",
+  "origin": "/home/sagemuej/local/progwrit/haskell/data/lazy-hash.git",
+  "online-remotes": {
+    "github": "git@github.com:leftaroundabout/lazy-hash",
+    "jsapi": "jsa2pi-loc:/home/jsa/progwrit/haskell/data/lazy-hash",
+    "pichime": "sagemuchime:~/progwrit/haskell/data/lazy-hash"
+  }
+}

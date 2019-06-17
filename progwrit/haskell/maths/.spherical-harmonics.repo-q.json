@@ -1,0 +1,11 @@
+
+{
+  "basename": "spherical-harmonics",
+  "pseudodir": "/home/sagemuej/progwrit/haskell/maths",
+  "origin": "/home/sagemuej/local/progwrit/haskell/maths/spherical-harmonics.git",
+  "online-remotes": {
+    "github": "git@github.com:leftaroundabout/spherical-harmonics.git"
+  , "homer": "geo-homer:/home/jsagemue/misc/spherical-harmonics.git"
+  , "sagemuchime": "sagemuchime:~/progwrit/haskell/maths/spherical-harmonics.git"
+  }
+}

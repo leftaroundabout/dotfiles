@@ -1,0 +1,9 @@
+{
+  "basename": "lockset-concurrency",
+  "pseudodir": "/home/sagemuej/phs/ideas",
+  "origin": "/home/sagemuej/local/progwrit/haskell/ideas/lockset-concurrency.git",
+  "online-remotes": {
+    "sagemuchime": "sagemuchime:progwrit/haskell/ideas/lockset-concurrency.git",
+    "nwpt": "git@bitbucket.org:svja/nwpt18-data-races.git"
+  }
+}

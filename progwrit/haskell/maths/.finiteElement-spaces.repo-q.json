@@ -1,0 +1,9 @@
+{
+  "basename": "finiteElement-spaces",
+  "pseudodir": "/home/sagemuej/progwrit/haskell/maths",
+  "origin": "/home/sagemuej/local/progwrit/haskell/maths/finiteElement-spaces.git",
+  "online-remotes": {
+    "github": "git@github.com:leftaroundabout/finiteElement-spaces.git"
+  , "sagemuchime": "sagemuchime:~/progwrit/haskell/maths/finiteElement-spaces.git"
+  }
+}

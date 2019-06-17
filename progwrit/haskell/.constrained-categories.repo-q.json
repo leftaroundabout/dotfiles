@@ -1,0 +1,8 @@
+{
+  "basename": "constrained-categories",
+  "pseudodir": "~/progwrit/haskell/",
+  "origin": "/home/sagemuej/local/progwrit/haskell/constrained-categories.git",
+  "online-remotes": {
+      "github": "git@github.com:leftaroundabout/constrained-categories.git"
+  }
+}

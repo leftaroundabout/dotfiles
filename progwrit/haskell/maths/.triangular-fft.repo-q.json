@@ -1,0 +1,9 @@
+{
+  "basename": "triangular-fft",
+  "pseudodir": "/home/sagemuej/progwrit/haskell/maths",
+  "origin": "/home/sagemuej/local/progwrit/haskell/maths/triangular-fft.git",
+  "online-remotes": {
+    "github": "git@github.com:leftaroundabout/triangular-fft.git"
+  , "sagemuchime": "sagemuchime:~/progwrit/haskell/maths/triangular-fft.git"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "basename": "timed-media",
+  "pseudodir": "~/progwrit/haskell/DSP",
+  "origin": "/home/sagemuej/local/progwrit/haskell/DSP/timed-media.git",
+  "online-remotes": {
+    "github": "git@github.com:leftaroundabout/timed-media.git"
+  }
+}

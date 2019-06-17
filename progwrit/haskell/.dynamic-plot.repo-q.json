@@ -1,0 +1,9 @@
+{
+  "basename": "dynamic-plot",
+  "pseudodir": "~/progwrit/haskell/",
+  "origin": "/home/sagemuej/local/progwrit/haskell/dynamic-plot.git",
+  "online-remotes": {
+      "github": "git@github.com:leftaroundabout/dynamic-plot.git",
+      "sagemuchime": "sagemuchime:progwrit/haskell/misc/dynamic-plot.git"
+  }
+}

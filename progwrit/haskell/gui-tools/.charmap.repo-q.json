@@ -1,0 +1,8 @@
+{
+  "basename": "charmap",
+  "pseudodir": "~/progwrit/haskell/gui-tools/",
+  "origin": "/home/sagemuej/local/progwrit/haskell/gui-tools/charmap.git",
+  "online-remotes": {
+      "github": "git@github.com:leftaroundabout/charmapM_.git"
+  }
+}

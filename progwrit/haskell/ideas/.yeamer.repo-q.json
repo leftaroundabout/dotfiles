@@ -1,0 +1,10 @@
+
+{
+  "basename": "yeamer",
+  "pseudodir": "/home/sagemuej/progwrit/haskell/ideas",
+  "origin": "/home/sagemuej/local/progwrit/haskell/ideas/yeamer.git",
+  "online-remotes": {
+    "github": "git@github.com:leftaroundabout/beamonad.git",
+    "sagemuchime": "sagemuchime:progwrit/haskell/ideas/yeamer"
+  }
+}

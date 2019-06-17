@@ -1,0 +1,9 @@
+{
+  "basename": "linearmap-category",
+  "pseudodir": "~/progwrit/haskell/misc/",
+  "origin": "/home/sagemuej/local/progwrit/haskell/misc/linearmap-family.git",
+  "online-remotes": {
+    "github": "git@github.com:leftaroundabout/linearmap-family.git",
+    "cheops-stack": "cheops:/home/jsagemue/haskell-devel/linearmap-family"
+  }
+}

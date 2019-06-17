@@ -1,0 +1,8 @@
+{
+  "basename": "trivial-constraint",
+  "pseudodir": "~/progwrit/haskell/",
+  "origin": "/home/sagemuej/local/progwrit/haskell/misc/trivial-constraint.git",
+  "online-remotes": {
+      "github": "git@github.com:leftaroundabout/trivial-constraint.git"
+  }
+}

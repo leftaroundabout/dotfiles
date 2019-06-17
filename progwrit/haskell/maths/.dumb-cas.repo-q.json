@@ -1,0 +1,10 @@
+{
+  "basename": "dumb-cas",
+  "pseudodir": "~/progwrit/haskell/maths",
+  "origin": "/home/sagemuej/local/progwrit/haskell/maths/dumb-cas.git",
+  "online-remotes": {
+    "github": "git@github.com:leftaroundabout/dumb-cas.git",
+    "jsapi": "jsa2pi-loc:/home/jsa/progwrit/haskell/maths/dumb-cas.git",
+    "pichime": "sagemuchime:/home/jsa/progwrit/haskell/maths/dumb-cas.git"
+  }
+}
