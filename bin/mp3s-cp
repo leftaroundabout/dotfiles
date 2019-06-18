@@ -1,0 +1,2 @@
+#!/bin/bash
+mp3s-namehandle cp "$1" "$2"

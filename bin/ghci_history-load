@@ -1,0 +1,9 @@
+#!/bin/bash
+
+if [ $# -eq 0 ]
+  then
+    cp ghci_history ~/.ghc
+  else
+    cp "$1.ghci_history" ~/.ghc/ghci_history
+fi
+

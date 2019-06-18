@@ -1,0 +1,7 @@
+#!/bin/bash
+find "$2" -name '*.mp3' | while read mp3
+do
+  trackNo=`id3 -l "$mp3" | grep Track | sed 's/^[^T]*Track: \(.\)/\1/' | sed 's/^\(.\)$/0\1/'`
+  $1 "$mp3" `echo "$mp3" | sed "s|$2/*|$3/${trackNo}_|;s|, |,|;s| \.|.|;s|_\.|.|;s| |-|g"`
+done
+

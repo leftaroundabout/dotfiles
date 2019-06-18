@@ -1,0 +1,13 @@
+#!/bin/bash
+
+invflag="/tmp/screen-is-inverted"
+
+if [ -f $invflag ];
+then
+  rm $invflag
+  xcalib -c -a
+else
+  touch $invflag
+  xcalib -i -a
+  xcalib -b 5 -a
+fi

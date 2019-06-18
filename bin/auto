@@ -1,0 +1,17 @@
+#!/bin/bash
+
+cabals=(*.cabal)
+makefiles=(?akefile)
+haskells=(*.hs)
+
+if [ -e "${cabals[0]}" ];
+then
+    cabal build
+elif [ -e "${makefiles[0]}" ];
+then
+    make -k
+elif [ -e "${haskells[0]}" ];
+then
+    runhaskell "${haskells[0]}"
+fi
+

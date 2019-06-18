@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# Unique name for the temporary clone.
+totalhash=$(tar -c $(git rev-parse --show-toplevel)/.git | sha256sum | head -c8)
+
+tmprepo="/tmp/$(basename $(pwd))_${totalhash}"
+
+git clone . ${tmprepo}
+
+# Start an interactive shell in the clone. Pass any
+# arguments as initial commands to be executed.
+/bin/bash --init-file <(echo "cd ${tmprepo}; $@")
+
+# Clean up the clone.
+rm -rf ${tmprepo} && echo "Deleted ${tmprepo}"
