@@ -1,0 +1,8 @@
+#!/bin/sh
+
+DIRTY=$(git status -s| grep -e "^[A-Z]")
+if [ ! "$DIRTY" ]; then
+    git commit -am "$@";
+else 
+    git commit -m "$@";
+fi
