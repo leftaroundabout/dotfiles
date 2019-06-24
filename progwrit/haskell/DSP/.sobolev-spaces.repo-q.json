@@ -1,6 +1,5 @@
 {
   "basename": "sobolev-spaces",
-  "pseudodir": "~/progwrit/haskell/DSP",
   "origin": "/home/sagemuej/local/progwrit/haskell/DSP/sobolev-spaces.git",
   "online-remotes": {
       "github": "git@github.com:leftaroundabout/sobolev-spaces.git"

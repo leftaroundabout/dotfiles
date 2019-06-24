@@ -1,7 +1,6 @@
 
 {
   "basename": "spatial-rotations",
-  "pseudodir": "/home/sagemuej/progwrit/haskell/maths",
   "origin": "/home/sagemuej/local/progwrit/haskell/maths/spatial-rotations.git",
   "online-remotes": {
     "github": "git@github.com:leftaroundabout/spatial-rotations.git"

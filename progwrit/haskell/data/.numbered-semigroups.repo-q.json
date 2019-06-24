@@ -1,7 +1,6 @@
 
 {
   "basename": "numbered-semigroups",
-  "pseudodir": "/home/sagemuej/progwrit/haskell/data",
   "origin": "/home/sagemuej/local/progwrit/haskell/data/numbered-semigroups.git",
   "online-remotes": {
     "github": "git@github.com:leftaroundabout/numbered-semigroups.git"

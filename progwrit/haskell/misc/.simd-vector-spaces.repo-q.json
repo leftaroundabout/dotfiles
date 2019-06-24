@@ -1,6 +1,5 @@
 {
   "basename": "simd-vector-spaces",
-  "pseudodir": "~/progwrit/haskell/misc/",
   "origin": "/home/sagemuej/local/progwrit/haskell/misc/simd-vector-spaces.git",
   "online-remotes": {
     "github": "git@github.com:leftaroundabout/simd-vector-spaces.git"

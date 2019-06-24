@@ -1,6 +1,5 @@
 {
   "basename": "IHaskell-tables",
-  "pseudodir": "~/progwrit/haskell/misc/",
   "origin": "/home/sagemuej/local/progwrit/haskell/misc/iHaskell-tables.git",
   "online-remotes": { "github": "git@github.com:leftaroundabout/IHaskell-tables.git" }
 }

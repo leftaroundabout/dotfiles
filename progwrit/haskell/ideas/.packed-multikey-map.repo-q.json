@@ -1,6 +1,5 @@
 {
   "basename": "packed-multikey-map",
-  "pseudodir": "~/progwrit/haskell/ideas",
   "origin": "/home/sagemuej/local/progwrit/haskell/ideas/packed-multikey-map.git",
   "online-remotes": {
     "github": "git@github.com:leftaroundabout/packed-multikey-map.git"

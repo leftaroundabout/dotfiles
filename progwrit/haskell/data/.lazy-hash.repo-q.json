@@ -1,6 +1,5 @@
 {
   "basename": "lazy-hash",
-  "pseudodir": "~/progwrit/haskell/data",
   "origin": "/home/sagemuej/local/progwrit/haskell/data/lazy-hash.git",
   "online-remotes": {
     "github": "git@github.com:leftaroundabout/lazy-hash",

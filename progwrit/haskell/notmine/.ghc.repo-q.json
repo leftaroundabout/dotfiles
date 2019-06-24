@@ -1,6 +1,5 @@
 {
   "basename": "ghc",
-  "pseudodir": "~/progwrit/haskell/notmine/",
   "origin": "/home/sagemuej/local/progwrit/haskell/notmine/ghc.git",
   "online-remotes": { "official": "http://git.haskell.org/ghc.git" }
 }
